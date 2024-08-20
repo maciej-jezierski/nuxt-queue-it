@@ -1,6 +1,6 @@
 {
   "name": "nuxt-queue-it",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Integrate Queue-IT in Nuxt app. Run sales and & registrations without crashes or bots",
   "repository": "your-org/nuxt-queue-it",
   "license": "MIT",
@@ -30,7 +30,8 @@
   },
   "dependencies": {
     "@nuxt/kit": "^3.12.4",
-    "@queue-it/connector-javascript": "^4.3.1"
+    "@queue-it/connector-javascript": "^4.3.1",
+    "defu": "^6.1.4"
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.3.9",
