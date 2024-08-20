@@ -24,14 +24,56 @@ export default defineNuxtModule<ModuleOptions>({
     configKey: 'queueit',
   },
   defaults: {
+    /**
+     * API Key from QueueIT console
+     * @default null
+     */
     apiKey: null,
+    /**
+     * Customer ID from QueueIT console
+     * @default null
+     */
     customerId: null,
+    /**
+     * Customer Secret from QueueIT console
+     * @default null
+     */
     customerSecretKey: null,
+    /**
+     * Disable integation
+     * @default false
+     */
     disabled: false,
+    /**
+     * Cookie queue-it token with be created with this path
+     * @default /
+     */
     cookiePath: '/',
+    /**
+     * Which HTTP methods should be ignored and not checked during server calls
+     * @default ['OPTIONS', 'HEAD']
+     */
     ignoreHttpMethods: ['OPTIONS', 'HEAD'],
+    /**
+     * Enable SPA tracking to extend cookie queueit token
+     * @default true
+     */
     enableSpaScript: true,
+    /**
+     * Enable validation of the cookie on middleware when route changes
+     * @default true
+     */
     enableMiddlewareSessionRefresh: true,
+    /**
+     * Static files should be excluded from the check
+     * @default  [{ path: '/css/', contains: true },
+      { path: '/fonts/', contains: true },
+      { path: '/scripts/', contains: true },
+      { path: '/_nuxt/', contains: true },
+      { path: '/icons/', contains: true },
+      { path: '/_ipx/', contains: true },
+      { path: '_loading/sse' }]
+     */
     ignoreHttpPaths: [
       { path: '/css/', contains: true },
       { path: '/fonts/', contains: true },
