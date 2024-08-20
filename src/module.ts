@@ -4,7 +4,7 @@ import {
   createResolver,
   addRouteMiddleware,
 } from '@nuxt/kit'
-import { defu } from 'defu';
+import { defu } from 'defu'
 
 export interface ModuleOptions {
   customerId: string | null
@@ -48,13 +48,11 @@ export default defineNuxtModule<ModuleOptions>({
     }
 
     _nuxt.options.runtimeConfig.queueit = defu(_nuxt.options.runtimeConfig, {
-      ..._options
-    });
-    _nuxt.options.runtimeConfig.public.queueit = defu(_nuxt.options.runtimeConfig.public, {
-      customerId: _options.customerId
+      ..._options,
     })
-
-
+    _nuxt.options.runtimeConfig.public.queueit = defu(_nuxt.options.runtimeConfig.public, {
+      customerId: _options.customerId,
+    })
 
     const resolver = createResolver(import.meta.url)
 
