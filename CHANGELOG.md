@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.1.1
+
+[compare changes](https://github.com/maciej-jezierski/nuxt-queue-it/compare/v1.1.0...v1.1.1)
+
+### 🩹 Fixes
+
+- Documentation ([e148c72](https://github.com/maciej-jezierski/nuxt-queue-it/commit/e148c72))
+
+### ❤️ Contributors
+
+- Maciej Jezierski <maciej.jezier@gmail.com>
+
 ## v1.1.0
 
 

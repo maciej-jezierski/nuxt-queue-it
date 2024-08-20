@@ -1,6 +1,6 @@
 {
   "name": "nuxt-queue-it",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Integrate Queue-IT in Nuxt app. Run sales and & registrations without crashes or bots",
   "repository": "https://github.com/maciej-jezierski/nuxt-queue-it",
   "license": "Apache-2.0",
