@@ -1,28 +1,44 @@
 # nuxt-queue-it
 
+### Patronite it
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/woomoo)
+
 ## Features
 
 - 👌 Zero-code required
 - 🔥 Run high-traffic sales & registrations without crashes or bots
 - ⚡️ Control traffic on your website
 
+## 🔗 Links
+
+- 📘 [Offical](https://queue-it.com/)
+
 ## Quick setup
 
 1. Install `nuxt-queue-it`!
 
-```npm
- npm add -S nuxt-queue-it
+NPM based
+
+```bash
+npm add -S nuxt-queue-it
 ```
 
-```yarn
- yarn add nuxt-queue-it
+Yarn based
+
+```bash
+yarn add nuxt-queue-it
 ```
 
-```pnpm
+PNPM based
+
+```bash
 pnpm add nuxt-queue-it
 ```
 
-```bun
+Bun based
+
+```bash
 bun add nuxt-queue-it
 ```
 
@@ -104,11 +120,6 @@ export default defineNuxtConfig({
   },
 });
 ```
-
-## Development
-
-- Run `bun prepare` to generate type stubs.
-- Use `bun dev` to start [playground](./playground) in development mode.
 
 ## Licence
 
