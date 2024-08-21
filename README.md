@@ -1,6 +1,6 @@
 # nuxt-queue-it
 
-### Patronite it
+### Support it
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/woomoo)
 
@@ -13,6 +13,7 @@
 ## 🔗 Links
 
 - 📘 [Offical](https://queue-it.com/)
+- 👁️‍🗨️ [Preview](https://nuxt-queue-it.nuxt.dev)
 
 ## Quick setup
 
