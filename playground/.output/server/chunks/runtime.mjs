@@ -4174,7 +4174,7 @@ const appConfig = defuFn(inlineAppConfig);
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/",
-    "buildId": "8eb68d83-0809-40a7-9fb5-9c4b41492f93",
+    "buildId": "5798814a-c263-40d7-85ef-56a5a5a47dab",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -4201,7 +4201,67 @@ const _inlineRuntimeConfig = {
       }
     }
   },
-  "public": {}
+  "public": {
+    "queueit": {
+      "customerId": ""
+    }
+  },
+  "queueit": {
+    "apiKey": "",
+    "customerId": "",
+    "customerSecretKey": "",
+    "disabled": false,
+    "cookiePath": "/",
+    "ignoreHttpMethods": [
+      "OPTIONS",
+      "HEAD"
+    ],
+    "enableSpaScript": true,
+    "enableMiddlewareSessionRefresh": true,
+    "ignoreHttpPaths": [
+      {
+        "path": "/css/",
+        "contains": true
+      },
+      {
+        "path": "/fonts/",
+        "contains": true
+      },
+      {
+        "path": "/scripts/",
+        "contains": true
+      },
+      {
+        "path": "/_nuxt/",
+        "contains": true
+      },
+      {
+        "path": "/icons/",
+        "contains": true
+      },
+      {
+        "path": "/_ipx/",
+        "contains": true
+      },
+      {
+        "path": "_loading/sse"
+      }
+    ],
+    "public": {
+      "queueit": {
+        "customerId": ""
+      }
+    },
+    "app": {
+      "buildId": "5798814a-c263-40d7-85ef-56a5a5a47dab",
+      "baseURL": "/",
+      "buildAssetsDir": "/_nuxt/",
+      "cdnURL": ""
+    },
+    "nitro": {
+      "envPrefix": "NUXT_"
+    }
+  }
 };
 const envOptions = {
   prefix: "NITRO_",
@@ -4946,7 +5006,7 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets$1);
 
-storage.mount('data', unstorage_47drivers_47fs_45lite({"driver":"fsLite","base":"/Users/maciej/Projects/nuxt-queueit/.data/kv"}));
+storage.mount('data', unstorage_47drivers_47fs_45lite({"driver":"fsLite","base":"/Users/maciej/Projects/nuxt-queueit/playground/.data/kv"}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -5450,58 +5510,58 @@ const assets = {
   "/_nuxt/B0b4y9LA.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"1bf35-dpFgfx5Wdb1c5/vrEBv876RJYKc\"",
-    "mtime": "2024-08-20T09:57:26.343Z",
+    "mtime": "2024-08-21T09:54:30.983Z",
     "size": 114485,
     "path": "../public/_nuxt/B0b4y9LA.js"
   },
   "/_nuxt/B9jMjNYA.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"180-Fpc1gcRba4sFNuE+bYsSE5FLvg8\"",
-    "mtime": "2024-08-20T09:57:26.343Z",
+    "mtime": "2024-08-21T09:54:30.983Z",
     "size": 384,
     "path": "../public/_nuxt/B9jMjNYA.js"
   },
   "/_nuxt/BIbW3NnH.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"2029-+857J8oOMtY0SDeEatDOhwdizpQ\"",
-    "mtime": "2024-08-20T09:57:26.343Z",
+    "mtime": "2024-08-21T09:54:30.983Z",
     "size": 8233,
     "path": "../public/_nuxt/BIbW3NnH.js"
   },
   "/_nuxt/Cz4godnL.js": {
     "type": "text/javascript; charset=utf-8",
     "etag": "\"ace-NxXAdacwAeGOvQeDZW1cwCprjsA\"",
-    "mtime": "2024-08-20T09:57:26.343Z",
+    "mtime": "2024-08-21T09:54:30.983Z",
     "size": 2766,
     "path": "../public/_nuxt/Cz4godnL.js"
   },
   "/_nuxt/error-404.CjTTbIxB.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"de4-nhbidH0L532UsgH62Bl7f2GrPfM\"",
-    "mtime": "2024-08-20T09:57:26.343Z",
+    "mtime": "2024-08-21T09:54:30.983Z",
     "size": 3556,
     "path": "../public/_nuxt/error-404.CjTTbIxB.css"
   },
   "/_nuxt/error-500.B4KzowuE.css": {
     "type": "text/css; charset=utf-8",
     "etag": "\"75c-oEv9+ETL4PF/1X1+eod/w64YQIE\"",
-    "mtime": "2024-08-20T09:57:26.343Z",
+    "mtime": "2024-08-21T09:54:30.983Z",
     "size": 1884,
     "path": "../public/_nuxt/error-500.B4KzowuE.css"
   },
   "/_nuxt/builds/latest.json": {
     "type": "application/json",
-    "etag": "\"47-kZD0ob1LzotBslqX/Jej8QNu9f8\"",
-    "mtime": "2024-08-20T09:57:26.341Z",
+    "etag": "\"47-fDceMrqnh5g9IUv4k/UXENSfxvA\"",
+    "mtime": "2024-08-21T09:54:30.981Z",
     "size": 71,
     "path": "../public/_nuxt/builds/latest.json"
   },
-  "/_nuxt/builds/meta/8eb68d83-0809-40a7-9fb5-9c4b41492f93.json": {
+  "/_nuxt/builds/meta/5798814a-c263-40d7-85ef-56a5a5a47dab.json": {
     "type": "application/json",
-    "etag": "\"8b-dvMyDkhYrcXDrd9CB3uOR0rEx/M\"",
-    "mtime": "2024-08-20T09:57:26.338Z",
+    "etag": "\"8b-D2gArh+Tz8kumrGg2UznLCZldX4\"",
+    "mtime": "2024-08-21T09:54:30.979Z",
     "size": 139,
-    "path": "../public/_nuxt/builds/meta/8eb68d83-0809-40a7-9fb5-9c4b41492f93.json"
+    "path": "../public/_nuxt/builds/meta/5798814a-c263-40d7-85ef-56a5a5a47dab.json"
   }
 };
 
@@ -5705,16 +5765,14 @@ const _DVs8OX = defineEventHandler(async (event) => {
   setResponseHeaders(event, {
     [QUEUEIT_CONNECTOR_HEADER_NAME]: QUEUEIT_CONNECTOR_NAME
   });
-  const {
-    queueit: {
-      apiKey,
-      customerId,
-      customerSecretKey,
-      ignoreHttpMethods,
-      ignoreHttpPaths,
-      cookiePath
-    }
-  } = useRuntimeConfig(event);
+  const { queueit: {
+    apiKey,
+    customerId,
+    customerSecretKey,
+    ignoreHttpMethods,
+    ignoreHttpPaths,
+    cookiePath
+  } } = useRuntimeConfig(event);
   if (!customerId || !customerSecretKey || !apiKey) {
     console.warn(
       "[Queue-IT] One of the credentials is not provided. Middleware check will be not executed"
