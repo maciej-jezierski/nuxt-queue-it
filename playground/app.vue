@@ -1,5 +1,5 @@
 <template>
-  <div>Nuxt module playground!</div>
+  <div>Playground for Queue IT plugin</div>
 </template>
 
 <script setup></script>

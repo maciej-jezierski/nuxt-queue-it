@@ -10,6 +10,10 @@
 - 🔥 Run high-traffic sales & registrations without crashes or bots
 - ⚡️ Control traffic on your website
 
+## Overview
+
+It's an unofficial module to Nuxt3 framework. It's still under development and require testing. Stable version will be released once those actions will be done. Nuxt2 is not supported, but seprate release will be created if testing on this one pass.
+
 ## 🔗 Links
 
 - 📘 [Offical](https://queue-it.com/)
